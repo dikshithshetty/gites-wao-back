@@ -7,7 +7,6 @@ import connectDB from './config/db.js';
 import cors from 'cors';
 import fileUpload from 'express-fileupload';
 import bodyParser from 'body-parser';
-
 import gitesRoutes from './routes/gitesRoutes.js';
 import userRoutes from './routes/userRoutes.js';
 import uploadRoutes from './routes/uploadRoutes.js';
@@ -78,7 +77,7 @@ if (process.env.NODE_ENV === 'production') {
 	});
 }
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8080;
 
 app.listen(
 	PORT,
