@@ -38,8 +38,5 @@
 		"slugify": "^1.4.6",
 		"string-strip-html": "^7.0.3",
 		"uuid": "^8.3.2"
-	},
-	"engines": {
-		"node": "14.16.0"
 	}
 }
