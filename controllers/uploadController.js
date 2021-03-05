@@ -1,11 +1,6 @@
 import Photo from '../models/photoModel.js';
 import asyncHandler from 'express-async-handler';
-import slugify from 'slugify';
-import stripHtml from 'string-strip-html';
-import formidable from 'formidable';
-import fs from 'fs';
 import _ from 'lodash';
-import { uploadAWSS3 } from '../middleware/uploadMiddleware.js';
 
 // @desc      Update an image after added it
 // @route     PUT /api/save-images-data/:nom

@@ -3,8 +3,6 @@ import Photo from '../models/photoModel.js';
 import asyncHandler from 'express-async-handler';
 import slugify from 'slugify';
 import stripHtml from 'string-strip-html';
-import formidable from 'formidable';
-import fs from 'fs';
 import _ from 'lodash';
 import QR from '../models/QRModel.js';
 
