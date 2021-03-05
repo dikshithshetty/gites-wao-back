@@ -23,7 +23,7 @@ import calendarRoutes from './routes/calendarRoutes.js';
 
 dotenv.config();
 
-await connectDB();
+connectDB();
 
 const app = express();
 
