@@ -8,8 +8,8 @@ import {
 	getNumberOfNewMessage,
 	messageResponse,
 	setVu,
-} from '../controllers/messageController.js';
-import { protect, admin } from '../middleware/authMiddleware.js';
+} from '../controllers/messageController';
+import { protect, admin } from '../middleware/authMiddleware';
 
 //Public
 router.get('/message/count', getNumberOfNewMessage);

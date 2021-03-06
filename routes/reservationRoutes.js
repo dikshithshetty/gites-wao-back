@@ -9,8 +9,8 @@ import {
 	updateReservation,
 	getNumberOfNewReservation,
 	sendContract,
-} from '../controllers/reservationController.js';
-import { protect, admin } from '../middleware/authMiddleware.js';
+} from '../controllers/reservationController';
+import { protect, admin } from '../middleware/authMiddleware';
 
 //Public
 router.post('/reservation', createReservation);

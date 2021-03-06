@@ -9,8 +9,8 @@ import {
 	getUserById,
 	removeUser,
 	updateUser,
-} from '../controllers/userController.js';
-import { admin, protect } from '../middleware/authMiddleware.js';
+} from '../controllers/userController';
+import { admin, protect } from '../middleware/authMiddleware';
 
 router.post('/admin/login', authUser);
 router.post('/admin/logout', logout);

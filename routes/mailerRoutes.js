@@ -6,8 +6,8 @@ import {
 	createMailer,
 	removeMailer,
 	updateMailer,
-} from '../controllers/mailerController.js';
-import { protect, admin } from '../middleware/authMiddleware.js';
+} from '../controllers/mailerController';
+import { protect, admin } from '../middleware/authMiddleware';
 
 //Admin
 router.get('/mailer', protect, admin, getAllMailers);

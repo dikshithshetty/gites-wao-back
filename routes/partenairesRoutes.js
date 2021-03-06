@@ -14,8 +14,8 @@ import {
 	removePartenaireCard,
 	getAllPartenairesNoms,
 	getPartenaireBySlug,
-} from '../controllers/partenairesController.js';
-import { protect, admin } from '../middleware/authMiddleware.js';
+} from '../controllers/partenairesController';
+import { protect, admin } from '../middleware/authMiddleware';
 
 //Card
 //Public
