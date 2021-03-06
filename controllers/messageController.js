@@ -1,7 +1,7 @@
-import Message from '../models/MessageModel.js';
+import Message from '../models/MessageModel';
 import asyncHandler from 'express-async-handler';
-import validateHuman from '../utils/validateHuman.js';
-import sendEmailWithNodemailer from '../utils/email.js';
+import validateHuman from '../utils/validateHuman';
+import sendEmailWithNodemailer from '../utils/email';
 
 // @desc      Fetch all Messages
 // @route     GET /api/messages

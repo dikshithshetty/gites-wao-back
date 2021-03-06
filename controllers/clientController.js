@@ -1,7 +1,7 @@
-import Client from '../models/ClientModel.js';
+import Client from '../models/ClientModel';
 import asyncHandler from 'express-async-handler';
-import Mailer from '../models/mailerModel.js';
-import sendEmailWithNodemailer from '../utils/email.js';
+import Mailer from '../models/mailerModel';
+import sendEmailWithNodemailer from '../utils/email';
 
 // @desc      Fetch all clients
 // @route     GET /api/client

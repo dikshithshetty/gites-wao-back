@@ -1,5 +1,5 @@
 import asyncHandler from 'express-async-handler';
-import Mailer from '../models/mailerModel.js';
+import Mailer from '../models/mailerModel';
 
 // @desc      Fetch all Mailers
 // @route     GET /api/mailer

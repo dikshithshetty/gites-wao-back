@@ -1,10 +1,10 @@
-import Gite from '../models/giteModel.js';
-import Photo from '../models/photoModel.js';
+import Gite from '../models/giteModel';
+import Photo from '../models/photoModel';
 import asyncHandler from 'express-async-handler';
 import slugify from 'slugify';
 import stripHtml from 'string-strip-html';
 import _ from 'lodash';
-import QR from '../models/QRModel.js';
+import QR from '../models/QRModel';
 
 // @desc      Fetch all gites
 // @route     GET /api/gites

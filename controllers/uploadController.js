@@ -1,4 +1,4 @@
-import Photo from '../models/photoModel.js';
+import Photo from '../models/photoModel';
 import asyncHandler from 'express-async-handler';
 import _ from 'lodash';
 
