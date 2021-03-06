@@ -1,4 +1,4 @@
-import Partenaire from '../models/PartenaireModel';
+import Partenaire from '../models/PartenaireModel.js';
 import asyncHandler from 'express-async-handler';
 import slugify from 'slugify';
 

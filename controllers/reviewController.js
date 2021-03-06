@@ -1,4 +1,4 @@
-import Review from '../models/ReviewModel';
+import Review from '../models/ReviewModel.js';
 import asyncHandler from 'express-async-handler';
 
 // @desc      Fetch all Reviews

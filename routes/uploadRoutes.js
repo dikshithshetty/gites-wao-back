@@ -1,8 +1,8 @@
 import express from 'express';
 const router = express.Router();
-import { savePhotosData, saveFile } from '../controllers/uploadController';
-import { protect, admin } from '../middleware/authMiddleware';
-import { uploadS3, uploadAWSS3 } from '../middleware/uploadMiddleware';
+import { savePhotosData, saveFile } from '../controllers/uploadController.js';
+import { protect, admin } from '../middleware/authMiddleware.js';
+import { uploadS3, uploadAWSS3 } from '../middleware/uploadMiddleware.js';
 
 // Routes espaces admin
 

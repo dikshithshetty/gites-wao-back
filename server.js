@@ -7,7 +7,7 @@ import connectDB from './config/db.js';
 import cors from 'cors';
 import fileUpload from 'express-fileupload';
 import bodyParser from 'body-parser';
-import gitesRoutes from './routes/gitesRoutes';
+import gitesRoutes from './routes/gitesRoutes.js';
 import userRoutes from './routes/userRoutes.js';
 import uploadRoutes from './routes/uploadRoutes.js';
 import reviewRoutes from './routes/reviewRoutes.js';

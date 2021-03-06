@@ -6,8 +6,8 @@ import {
 	removeClient,
 	updateClient,
 	sendEmail,
-} from '../controllers/clientController';
-import { protect, admin } from '../middleware/authMiddleware';
+} from '../controllers/clientController.js';
+import { protect, admin } from '../middleware/authMiddleware.js';
 
 //Public
 // router.post('/client', createClient); //Inutile car créé avec reservation

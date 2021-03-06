@@ -7,8 +7,8 @@ import {
 	updateReview,
 	removeReview,
 	getReviewsByGites,
-} from '../controllers/reviewController';
-import { protect, admin } from '../middleware/authMiddleware';
+} from '../controllers/reviewController.js';
+import { protect, admin } from '../middleware/authMiddleware.js';
 
 //Public
 router.get('/reviews', getAllReviews);

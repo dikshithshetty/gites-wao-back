@@ -8,8 +8,8 @@ import {
 	getLiensByCategorie,
 	getAllLiens,
 	getLienById,
-} from '../controllers/pagesController';
-import { protect, admin } from '../middleware/authMiddleware';
+} from '../controllers/pagesController.js';
+import { protect, admin } from '../middleware/authMiddleware.js';
 
 // Alentours
 //Public

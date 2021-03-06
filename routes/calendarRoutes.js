@@ -4,8 +4,8 @@ import {
 	getEvents,
 	getVacances,
 	getDejaLoue,
-} from '../controllers/calendarController';
-import { protect, admin } from '../middleware/authMiddleware';
+} from '../controllers/calendarController.js';
+import { protect, admin } from '../middleware/authMiddleware.js';
 
 //Admin
 router.get('/calendar/:calendarId/:dateDebut/:dateFin', getEvents);

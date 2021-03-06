@@ -1,5 +1,5 @@
 //Model de base
-import Alentours from '../models/AlentoursModel';
+import Alentours from '../models/AlentoursModel.js';
 import asyncHandler from 'express-async-handler';
 
 // @desc      Fetch all Liens
